@@ -10,7 +10,7 @@ public class App extends zodiacMethod{
             zodiacMethod app = new zodiacMethod();
             int year, month, day;
             do {
-                isValid = false; // Reset the validity flag for each new attempt
+                isValid = false; //try again loop
                 
                 do {
                     System.out.println("Enter year of birth (between 1900 and 2043):");
@@ -25,7 +25,7 @@ public class App extends zodiacMethod{
                                     if (scanner.hasNextInt()) {
                                         day = scanner.nextInt();
                                         if (day >= 1 && day <= 31) {
-                                            // Valid date entered
+                                            
                                             System.out.println("You entered: Year - " + year + ", Month - " + month + ", Day - " + day);
                                             
                                             // Call method based on concatenated date
