@@ -70,7 +70,7 @@ public class App extends zodiacMethod{
                     }
                 } while (!validResponse);
 
-                if (response.equals("no")) {
+                if (response.equals("no" )) {
                     tryAgain = false; // Exit the outer loop if the user says no
                     System.out.println("Thank you for using the Zodiac Finder!");
                 }
