@@ -29,7 +29,7 @@ try (Scanner scanner = new Scanner(System.in)) {
 
                             if (day >= 1 && day <= 31) {
                                 // Concatenate year, month, and day into a string
-                                
+                                System.out.println(" you enter in your birth year "+year+" you enterd in your birth month is "+month+" you enter in your birth date is "+day);
                                 
                                 // Call method based on concatenated date
                                 ZodiacAnimal animal = app.getZodiacAnimalByYear(year);
