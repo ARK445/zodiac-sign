@@ -28,8 +28,7 @@ public class App extends zodiacMethod{
                                             
                                             System.out.println("You entered: Year - " + year + ", Month - " + month + ", Day - " + day);
                                             
-                                            // Call method based on concatenated date
-                                            ZodiacAnimal animal = app.getZodiacAnimalByYear(year);
+                                            ZodiacAnimal animal = app.getZodiacAnimalByYear(year);// Call method based on concatenated date
                                             if (animal != null) {
                                                 animal.displayTraits();  // Display traits of corresponding zodiac animal
                                             }
